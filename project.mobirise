@@ -1189,7 +1189,7 @@
               "margin-top": "auto !important"
             },
             ".mbr-section-title": {
-              "color": "#f7f7f7"
+              "color": "#0a2137"
             },
             ".mbr-text, .mbr-section-btn": {
               "text-align": "center"
