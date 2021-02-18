@@ -555,6 +555,12 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
 .alert-danger {
   background-color: #ff9966;
 }
+.mbr-section-btn a.btn:not(.btn-form) {
+  border-radius: 100px;
+}
+.mbr-gallery-filter li a {
+  border-radius: 100px !important;
+}
 .mbr-gallery-filter li.active .btn {
   background-color: #0a2137;
   border-color: #0a2137;
@@ -562,6 +568,9 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
+}
+.nav-tabs .nav-link {
+  border-radius: 100px !important;
 }
 a,
 a:hover {
@@ -618,6 +627,19 @@ blockquote {
   border-color: #0a2137;
 }
 /* Forms */
+.mbr-form .input-group-btn a.btn {
+  border-radius: 100px !important;
+}
+.mbr-form .input-group-btn a.btn:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.mbr-form .input-group-btn button[type="submit"] {
+  border-radius: 100px !important;
+  padding: 1rem 3rem;
+}
+.mbr-form .input-group-btn button[type="submit"]:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
   background-color: #0a2137;
@@ -688,38 +710,25 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-slz2I92NG9 {
-  background-color: #a37171;
-}
-.cid-slz2I92NG9 .row {
-  flex-direction: row-reverse;
+.cid-spoPe9voND {
+  background-image: url("../../../assets/images/mbr-1920x1433.jpg");
 }
 @media (max-width: 991px) {
-  .cid-slz2I92NG9 .image-wrapper {
-    margin-bottom: 2rem;
+  .cid-spoPe9voND .mbr-section-title,
+  .cid-spoPe9voND .mbr-section-subtitle,
+  .cid-spoPe9voND .mbr-section-btn,
+  .cid-spoPe9voND .mbr-text {
+    text-align: center;
   }
 }
-.cid-slz2I92NG9 .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
+.cid-spoPe9voND .mbr-section-title {
+  color: #ffffff;
+  text-align: center;
 }
-@media (min-width: 992px) {
-  .cid-slz2I92NG9 .text-wrapper {
-    padding: 0 2rem;
-  }
-}
-@media (max-width: 768px) {
-  .cid-slz2I92NG9 .text-wrapper {
-    margin-bottom: 2rem;
-  }
-}
-.cid-slz2I92NG9 .mbr-text,
-.cid-slz2I92NG9 .mbr-section-btn {
-  text-align: left;
-}
-.cid-slz2I92NG9 .mbr-section-title {
-  text-align: left;
-  color: #232323;
+.cid-spoPe9voND .mbr-text,
+.cid-spoPe9voND .mbr-section-btn {
+  color: #ffffff;
+  text-align: center;
 }
 .cid-s48udlf8KU {
   padding-top: 5rem;
@@ -873,7 +882,7 @@ a {
   margin: auto;
 }
 .cid-s48OLK6784 .iconfont-wrapper {
-  color: #000000 !important;
+  color: #0a2137 !important;
   font-size: 1.5rem;
   padding-right: .5rem;
 }
@@ -1223,7 +1232,7 @@ a {
   margin: auto;
 }
 .cid-s48OLK6784 .iconfont-wrapper {
-  color: #000000 !important;
+  color: #0a2137 !important;
   font-size: 1.5rem;
   padding-right: .5rem;
 }
@@ -1669,7 +1678,7 @@ a {
   margin: auto;
 }
 .cid-s48OLK6784 .iconfont-wrapper {
-  color: #000000 !important;
+  color: #0a2137 !important;
   font-size: 1.5rem;
   padding-right: .5rem;
 }
@@ -1959,9 +1968,9 @@ a {
   }
 }
 .cid-snNoXauiGX {
-  padding-top: 105px;
+  padding-top: 60px;
   padding-bottom: 0px;
-  background-color: #f7f7f7;
+  background-color: #fafafa;
 }
 .cid-snNoXauiGX .media-container-row {
   justify-content: space-between;
@@ -2164,7 +2173,7 @@ a {
   margin: auto;
 }
 .cid-s48OLK6784 .iconfont-wrapper {
-  color: #000000 !important;
+  color: #0a2137 !important;
   font-size: 1.5rem;
   padding-right: .5rem;
 }
@@ -2634,7 +2643,7 @@ a {
   margin: auto;
 }
 .cid-s48OLK6784 .iconfont-wrapper {
-  color: #000000 !important;
+  color: #0a2137 !important;
   font-size: 1.5rem;
   padding-right: .5rem;
 }
@@ -3098,7 +3107,7 @@ a {
   margin: auto;
 }
 .cid-sono3L1TiH .iconfont-wrapper {
-  color: #000000 !important;
+  color: #0a2137 !important;
   font-size: 1.5rem;
   padding-right: .5rem;
 }
@@ -3562,7 +3571,7 @@ a {
   margin: auto;
 }
 .cid-soKAFiHYks .iconfont-wrapper {
-  color: #000000 !important;
+  color: #0a2137 !important;
   font-size: 1.5rem;
   padding-right: .5rem;
 }
@@ -4026,7 +4035,7 @@ a {
   margin: auto;
 }
 .cid-soKHnM8lff .iconfont-wrapper {
-  color: #000000 !important;
+  color: #0a2137 !important;
   font-size: 1.5rem;
   padding-right: .5rem;
 }
@@ -4490,7 +4499,7 @@ a {
   margin: auto;
 }
 .cid-soKJgIJVvC .iconfont-wrapper {
-  color: #000000 !important;
+  color: #0a2137 !important;
   font-size: 1.5rem;
   padding-right: .5rem;
 }
